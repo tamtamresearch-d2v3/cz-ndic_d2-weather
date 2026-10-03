@@ -5,8 +5,8 @@ name:
   cs: DATEX II Situation Publication – Počasí a sjízdnost
   en: DATEX II Situation Publication – Weather and road conditions
 description:
-  cs: Nebezpečné jevy počasí a sjízdnost vztažené k meteostanicím.
-  en: Hazardous weather and road conditions related to weather stations.
+  cs: Nebezpečné jevy počasí a sjízdnost zjištěné meteohláskami.
+  en: Hazardous weather and road conditions detected by road weather stations.
 publisher:
   cs: Národní dopravní informační centrum
   en: National Traffic Information Centre

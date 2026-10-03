@@ -13,11 +13,11 @@ include::{samplesdir}/strong-wind.xml[tags=**]
 
 Obálka a hlavička::
 Kořen `d2:payload` typu `sit:SituationPublication` s atributy `@profileName` a `@profileVersion`,
-`publicationTime` a `publicationCreator`. `feedType` odkazuje na zdroj dat.
+`publicationTime` a `publicationCreator`. `feedType` odkazuje na distribuci (zdroj dat).
 
 Situace::
 Situace obsahuje jeden záznam typu `sit:PoorEnvironmentConditions` ve verzi 4: silný vítr (`strongWinds`). Záznam
-vznikl v 0:07:31 a do 0:27:31 byl třikrát obnoven; zdrojem jsou meteohlásky (`ITSMETEO`).
+vznikl v 0:07:31 a do 0:27:31 byl třikrát obnoven; původcem jsou meteohlásky (`ITSMETEO`).
 
 Platnost::
 Aktuální verze platí 20 minut – od 0:21 do 0:41 (`overallStartTime`, `overallEndTime`).
@@ -29,7 +29,7 @@ vzorku `predefined_location_set-weather.xml` formátu `cz-ndic_d2-pls`.
 
 === strong-wind-loc_group.xml – silný vítr pro skupinu míst
 
-Tatáž zpráva, jejíž poloha odkazuje na skupinu předdefinovaných poloh (`loc:LocationGroupByReference`,
+Ilustrační varianta zprávy ze vzorku `strong-wind.xml` (jiný identifikátor situace), jejíž poloha odkazuje na skupinu předdefinovaných poloh (`loc:LocationGroupByReference`,
 `@targetClass` = `loc:PredefinedLocationGroup`). Odkazovaná skupina je vzorek `predefined_location_loc_group.xml`
 formátu `cz-ndic_d2-pls`. Odkaz na skupinu se v produkčních datech zatím nevyskytuje; vzorek ukazuje jen jeho zápis.
 

@@ -15,7 +15,7 @@ a používá model DATEX II 3.7.
 [[obalka]]
 === Obálka a hlavička publikace
 
-Každá zpráva je dokument DATEX II 3 s kořenovým elementem `d2:payload`. Atribut `xsi:type` kořenového elementu určuje typ
+Každá zpráva je dokument DATEX II 3 s kořenovým elementem `d2:payload`. Atribut `@xsi:type` kořenového elementu určuje typ
 publikace (zde `sit:SituationPublication`), atribut `modelBaseVersion="3"` verzi modelu a atribut `@lang` výchozí jazyk
 textů.
 
@@ -27,7 +27,7 @@ Formát, podle kterého je zpráva sestavena, identifikují výhradně atributy 
 
 Hlavička publikace obsahuje:
 
-* `feedType` – identifikátor zdroje dat, ze kterého zpráva pochází:
+* `feedType` – identifikátor zdroje dat (distribuce) v registru národního přístupového bodu <<nap>>:
 ** formát zprávy určují atributy `@profileName` a `@profileVersion`, nikoli `feedType`,
 ** element `feedDescription` se nepoužívá.
 * `publicationTime` – čas vytvoření obsahu publikace; pokud se obsah od předchozí publikace nezměnil, zůstává
@@ -66,7 +66,7 @@ include::{samplesdir}/strong-wind.xml[tag=situation-head,indent=0]
 </sit:situation>
 ----
 
-Vlastní informaci nese záznam `situationRecord`; jeho typ (`xsi:type`) odpovídá zjištěnému jevu
+Vlastní informaci nese záznam `situationRecord`; jeho typ (`@xsi:type`) odpovídá zjištěnému jevu
 (viz <<typy>>). Více záznamů v jedné situaci se neočekává. Identifikátor záznamu je odvozen od
 identifikátoru situace a typu záznamu.
 
@@ -92,8 +92,7 @@ include::{samplesdir}/strong-wind.xml[tag=record-meta,indent=0]
 * `probabilityOfOccurrence`:
 ** `certain` – naměřený jev (např. hustá mlha),
 ** `riskOf` – jev, který hrozí (např. nebezpečí akvaplaningu – vzorek `aquaplaning.xml`).
-* `safetyRelatedMessage` – `true` označuje informaci související s bezpečností silničního provozu podle
-  nařízení v přenesené pravomoci (EU) č. 886/2013 (SRTI).
+* `safetyRelatedMessage` – `true` označuje informaci související s bezpečností silničního provozu (SRTI).
 * `source` – původce informace (`sourceIdentification`, `sourceName`), tj. správce meteohlásek.
 * `generalPublicComment` – slovní popis jevu a místa, česky.
 

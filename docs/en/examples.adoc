@@ -13,11 +13,11 @@ include::{samplesdir}/strong-wind.xml[tags=**]
 
 Envelope and header::
 Root `d2:payload` of type `sit:SituationPublication` with the attributes `@profileName` and `@profileVersion`,
-`publicationTime` and `publicationCreator`. `feedType` refers to the data source.
+`publicationTime` and `publicationCreator`. `feedType` refers to the distribution (data source).
 
 Situation::
 The situation contains one record of type `sit:PoorEnvironmentConditions` in version 4: strong wind (`strongWinds`). The
-record was created at 0:07:31 and renewed three times until 0:27:31; the source is the road weather stations
+record was created at 0:07:31 and renewed three times until 0:27:31; the originator is the road weather stations
 (`ITSMETEO`).
 
 Validity::
@@ -30,7 +30,7 @@ is in the sample `predefined_location_set-weather.xml` of the format `cz-ndic_d2
 
 === strong-wind-loc_group.xml – strong wind for a group of places
 
-The same message whose location refers to a group of predefined locations (`loc:LocationGroupByReference`,
+An illustrative variant of the message from the sample `strong-wind.xml` (with a different situation identifier) whose location refers to a group of predefined locations (`loc:LocationGroupByReference`,
 `@targetClass` = `loc:PredefinedLocationGroup`). The referenced group is the sample
 `predefined_location_loc_group.xml` of the format `cz-ndic_d2-pls`. A reference to a group does not yet occur in
 production data; the sample only shows how it is written.

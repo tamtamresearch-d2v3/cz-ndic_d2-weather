@@ -16,7 +16,7 @@ DATEX II publication `sit:SituationPublication` <<EN16157-3>> and uses the DATEX
 [[obalka]]
 === Envelope and publication header
 
-Each message is a DATEX II 3 document with the root element `d2:payload`. The `xsi:type` attribute of the root element
+Each message is a DATEX II 3 document with the root element `d2:payload`. The `@xsi:type` attribute of the root element
 specifies the publication type (here `sit:SituationPublication`), the `modelBaseVersion="3"` attribute
 the model version and the `@lang` attribute the default language of texts.
 
@@ -28,7 +28,7 @@ The format the message conforms to is identified solely by attributes of the roo
 
 The publication header contains:
 
-* `feedType` – identifier of the data source the message comes from:
+* `feedType` – identifier of the data source (distribution) in the register of the national access point <<nap>>:
 ** the format of the message is identified by the `@profileName` and `@profileVersion` attributes, not by
    `feedType`,
 ** the `feedDescription` element is not used.
@@ -68,7 +68,7 @@ include::{samplesdir}/strong-wind.xml[tag=situation-head,indent=0]
 </sit:situation>
 ----
 
-The information itself is carried by the `situationRecord`; its type (`xsi:type`) corresponds to the
+The information itself is carried by the `situationRecord`; its type (`@xsi:type`) corresponds to the
 detected phenomenon (see <<typy>>). More than one record per situation is not expected. The record
 identifier is derived from the situation identifier and the record type.
 
@@ -95,8 +95,7 @@ include::{samplesdir}/strong-wind.xml[tag=record-meta,indent=0]
 * `probabilityOfOccurrence`:
 ** `certain` – a measured phenomenon (e.g. dense fog),
 ** `riskOf` – an imminent phenomenon (e.g. risk of aquaplaning – sample `aquaplaning.xml`).
-* `safetyRelatedMessage` – `true` marks safety-related traffic information according to Commission
-  Delegated Regulation (EU) No 886/2013 (SRTI).
+* `safetyRelatedMessage` – `true` marks safety-related traffic information (SRTI).
 * `source` – originator of the information (`sourceIdentification`, `sourceName`), i.e. the operator of
   the road weather stations.
 * `generalPublicComment` – textual description of the phenomenon and place, in Czech.

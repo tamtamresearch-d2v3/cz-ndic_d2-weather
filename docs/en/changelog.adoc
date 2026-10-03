@@ -10,3 +10,7 @@
    and `exchange` envelopes are not used; the root is `d2:payload`, the format is identified by the
    `@profileName` and `@profileVersion` attributes.
 ** `safetyRelatedMessage` is part of the model (formerly a national extension).
+** Urgency (`urgency`), cause (`cause`) and source type (`sourceType`) are not given; the comment contains only the
+   description of the phenomenon.
+** Slippery road due to weather is `slippery` (previously `slipperyRoad`).
+** A reference to a location group is `loc:LocationGroupByReference`, `@targetClass` with the prefix `loc:`.
