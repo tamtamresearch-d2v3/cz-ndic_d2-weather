@@ -29,7 +29,7 @@ vzorku `predefined_location_set-weather.xml` formátu `cz-ndic_d2-pls`.
 
 === strong-wind-loc_group.xml – silný vítr pro skupinu míst
 
-Tatáž zpráva, jejíž poloha odkazuje na skupinu předdefinovaných poloh (`loc:LocationGroupByReference`,
+Ilustrační varianta zprávy ze vzorku `strong-wind.xml` (jiný identifikátor situace), jejíž poloha odkazuje na skupinu předdefinovaných poloh (`loc:LocationGroupByReference`,
 `@targetClass` = `loc:PredefinedLocationGroup`). Odkazovaná skupina je vzorek `predefined_location_loc_group.xml`
 formátu `cz-ndic_d2-pls`. Odkaz na skupinu se v produkčních datech zatím nevyskytuje; vzorek ukazuje jen jeho zápis.
 

@@ -8,7 +8,7 @@
     <com:nationalIdentifier>NDIC</com:nationalIdentifier>
   </com:publicationCreator>
   <!-- end::header[] -->
-  <sit:situation id="af2d74d7-ab61-454f-ae80-0042d09d7210">
+  <sit:situation id="af2d74d7-ab61-454f-ae80-0042d09d7210-group">
     <!-- tag::situation-head[] -->
     <sit:situationVersionTime>2026-09-30T00:27:31+02:00</sit:situationVersionTime>
     <sit:headerInformation>
@@ -16,7 +16,7 @@
       <com:informationStatus>real</com:informationStatus>
     </sit:headerInformation>
     <!-- end::situation-head[] -->
-    <sit:situationRecord xsi:type="sit:PoorEnvironmentConditions" id="af2d74d7-ab61-454f-ae80-0042d09d7210_PoorEnvironmentConditions" version="4">
+    <sit:situationRecord xsi:type="sit:PoorEnvironmentConditions" id="af2d74d7-ab61-454f-ae80-0042d09d7210-group_PoorEnvironmentConditions" version="4">
       <!-- tag::record-meta[] -->
       <sit:situationRecordCreationTime>2026-09-30T00:07:31+02:00</sit:situationRecordCreationTime>
       <sit:situationRecordVersionTime>2026-09-30T00:27:31+02:00</sit:situationRecordVersionTime>
