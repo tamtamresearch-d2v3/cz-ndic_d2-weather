@@ -30,4 +30,4 @@ Vydání jsou v sekci *Releases* tohoto repozitáře:
 |`docs-<jazyk>-vX.Y.N` |dokumentace formátu v jazyce `cs`/`en` (PDF, HTML); `X.Y` = verze formátu, `N` = revize textu dané jazykové varianty
 |===
 
-Registr zdrojů dat a distribucí: https://registr.dopravniinfo.cz/[Národní přístupový bod].
+Registr distribucí (zdrojů dat): https://registr.dopravniinfo.cz/[Národní přístupový bod].

@@ -4,7 +4,7 @@
 
 Formát převeden na model DATEX II 3.7 (dříve cz-ndic_d2-weather-v1.2 (DATEX II 2.3)).
 
-* Zpráva: kořenový element `d2:payload` s typem publikace v `xsi:type`; obálky `d2LogicalModel` a `exchange` se nepoužívají.
-* Formát identifikují atributy `profileName` a `profileVersion`; `feedType` identifikuje distribuci (`x-source:…`), `feedDescription` se nepoužívá.
+* Zpráva: kořenový element `d2:payload` s typem publikace v atributu `@xsi:type`; obálky `d2LogicalModel` a `exchange` se nepoužívají.
+* Formát identifikují atributy `@profileName` a `@profileVersion`; `feedType` identifikuje distribuci (`x-source:…`), `feedDescription` se nepoužívá.
 
 Podrobný popis viz dokumentace formátu (příloha Historie změn dokumentace).
