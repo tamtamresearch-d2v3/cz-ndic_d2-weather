@@ -27,7 +27,7 @@ Odkaz na předdefinovaný úsek meteohlásky Cínovec 2 (`loc:LocationByReferenc
 `loc:PredefinedLocation`) s identifikátorem `88410412-1bf1-4ace-8e84-66cb60d127db` ve verzi 260601; úsek je ve
 vzorku `predefined_location_set-weather.xml` formátu `cz-ndic_d2-pls`.
 
-=== strong-wind-loc_group.xml – silný vítr pro skupinu míst (ilustrační příklad, nejde o vzorek dat)
+=== strong-wind-loc_group.xml – silný vítr pro skupinu míst
 
 Ilustrační varianta zprávy ze vzorku `strong-wind.xml` (jiný identifikátor situace), jejíž poloha odkazuje na skupinu předdefinovaných poloh (`loc:LocationGroupByReference`,
 `@targetClass` = `loc:PredefinedLocationGroup`). Odkazovaná skupina je vzorek `predefined_location_loc_group.xml`
@@ -35,7 +35,7 @@ formátu `cz-ndic_d2-pls`. Odkaz na skupinu se v produkčních datech zatím nev
 
 [source,xml]
 ----
-include::../ilustrace/strong-wind-loc_group.xml[tags=**]
+include::{samplesdir}/strong-wind-loc_group.xml[tags=**]
 ----
 
 === visibility.xml – hustá mlha s naměřenou hodnotou
