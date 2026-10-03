@@ -30,8 +30,9 @@ Hlavička publikace obsahuje:
 * `feedType` – identifikátor zdroje dat (distribuce) v registru národního přístupového bodu <<nap>>:
 ** formát zprávy určují atributy `@profileName` a `@profileVersion`, nikoli `feedType`,
 ** element `feedDescription` se nepoužívá.
-* `publicationTime` – čas vytvoření obsahu publikace; pokud se obsah od předchozí publikace nezměnil, zůstává
-  čas původní; nový čas vzniká jen se změnou obsahu.
+* `publicationTime` – čas vygenerování publikace; mění se s každým vygenerováním publikace, i když se obsah
+  nezměnil. Je-li soubor vystaven mimo pravidelné vygenerování (sestaven z předchozího obsahu beze změny),
+  `publicationTime` se nemění; mění se jen čas vystavení souboru.
 * `publicationCreator` – poskytovatel publikace:
 ** kód země malými písmeny (`cz`),
 ** zkratka poskytovatele (`nationalIdentifier`).
