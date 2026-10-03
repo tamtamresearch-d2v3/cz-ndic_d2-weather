@@ -13,11 +13,11 @@ include::{samplesdir}/strong-wind.xml[tags=**]
 
 Obálka a hlavička::
 Kořen `d2:payload` typu `sit:SituationPublication` s atributy `@profileName` a `@profileVersion`,
-`publicationTime` a `publicationCreator`. `feedType` odkazuje na zdroj dat.
+`publicationTime` a `publicationCreator`. `feedType` odkazuje na distribuci (zdroj dat).
 
 Situace::
 Situace obsahuje jeden záznam typu `sit:PoorEnvironmentConditions` ve verzi 4: silný vítr (`strongWinds`). Záznam
-vznikl v 0:07:31 a do 0:27:31 byl třikrát obnoven; zdrojem jsou meteohlásky (`ITSMETEO`).
+vznikl v 0:07:31 a do 0:27:31 byl třikrát obnoven; původcem jsou meteohlásky (`ITSMETEO`).
 
 Platnost::
 Aktuální verze platí 20 minut – od 0:21 do 0:41 (`overallStartTime`, `overallEndTime`).

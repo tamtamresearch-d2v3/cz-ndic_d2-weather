@@ -13,11 +13,11 @@ include::{samplesdir}/strong-wind.xml[tags=**]
 
 Envelope and header::
 Root `d2:payload` of type `sit:SituationPublication` with the attributes `@profileName` and `@profileVersion`,
-`publicationTime` and `publicationCreator`. `feedType` refers to the data source.
+`publicationTime` and `publicationCreator`. `feedType` refers to the distribution (data source).
 
 Situation::
 The situation contains one record of type `sit:PoorEnvironmentConditions` in version 4: strong wind (`strongWinds`). The
-record was created at 0:07:31 and renewed three times until 0:27:31; the source is the road weather stations
+record was created at 0:07:31 and renewed three times until 0:27:31; the originator is the road weather stations
 (`ITSMETEO`).
 
 Validity::
