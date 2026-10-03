@@ -156,8 +156,8 @@ Týká-li se jev více úseků najednou, může záznam odkazovat na *skupinu* p
 `locationReference` je pak typu `loc:LocationGroupByReference` s vnořeným
 `predefinedLocationGroupReference` a `@targetClass` = `loc:PredefinedLocationGroup`.
 
-.Odkaz na skupinu předdefinovaných poloh (vzorek `strong-wind-loc_group.xml`)
+.Odkaz na skupinu předdefinovaných poloh (ilustrační příklad `strong-wind-loc_group.xml`)
 [source,xml]
 ----
-include::{samplesdir}/strong-wind-loc_group.xml[tag=loc-group,indent=0]
+include::../ilustrace/strong-wind-loc_group.xml[tag=loc-group,indent=0]
 ----
