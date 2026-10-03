@@ -95,8 +95,7 @@ include::{samplesdir}/strong-wind.xml[tag=record-meta,indent=0]
 * `probabilityOfOccurrence`:
 ** `certain` – a measured phenomenon (e.g. dense fog),
 ** `riskOf` – an imminent phenomenon (e.g. risk of aquaplaning – sample `aquaplaning.xml`).
-* `safetyRelatedMessage` – `true` marks safety-related traffic information according to Commission
-  Delegated Regulation (EU) No 886/2013 (SRTI).
+* `safetyRelatedMessage` – `true` marks safety-related traffic information (SRTI).
 * `source` – originator of the information (`sourceIdentification`, `sourceName`), i.e. the operator of
   the road weather stations.
 * `generalPublicComment` – textual description of the phenomenon and place, in Czech.

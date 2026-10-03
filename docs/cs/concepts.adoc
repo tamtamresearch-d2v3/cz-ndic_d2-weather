@@ -92,8 +92,7 @@ include::{samplesdir}/strong-wind.xml[tag=record-meta,indent=0]
 * `probabilityOfOccurrence`:
 ** `certain` – naměřený jev (např. hustá mlha),
 ** `riskOf` – jev, který hrozí (např. nebezpečí akvaplaningu – vzorek `aquaplaning.xml`).
-* `safetyRelatedMessage` – `true` označuje informaci související s bezpečností silničního provozu podle
-  nařízení v přenesené pravomoci (EU) č. 886/2013 (SRTI).
+* `safetyRelatedMessage` – `true` označuje informaci související s bezpečností silničního provozu (SRTI).
 * `source` – původce informace (`sourceIdentification`, `sourceName`), tj. správce meteohlásek.
 * `generalPublicComment` – slovní popis jevu a místa, česky.
 
