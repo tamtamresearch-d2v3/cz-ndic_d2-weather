@@ -28,7 +28,7 @@ The format the message conforms to is identified solely by attributes of the roo
 
 The publication header contains:
 
-* `feedType` – identifier of the data source the message comes from:
+* `feedType` – identifier of the data source (distribution) in the register of the national access point <<nap>>:
 ** the format of the message is identified by the `@profileName` and `@profileVersion` attributes, not by
    `feedType`,
 ** the `feedDescription` element is not used.

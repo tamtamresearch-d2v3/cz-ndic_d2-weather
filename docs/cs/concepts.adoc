@@ -27,7 +27,7 @@ Formát, podle kterého je zpráva sestavena, identifikují výhradně atributy 
 
 Hlavička publikace obsahuje:
 
-* `feedType` – identifikátor zdroje dat, ze kterého zpráva pochází:
+* `feedType` – identifikátor zdroje dat (distribuce) v registru národního přístupového bodu <<nap>>:
 ** formát zprávy určují atributy `@profileName` a `@profileVersion`, nikoli `feedType`,
 ** element `feedDescription` se nepoužívá.
 * `publicationTime` – čas vytvoření obsahu publikace; pokud se obsah od předchozí publikace nezměnil, zůstává
