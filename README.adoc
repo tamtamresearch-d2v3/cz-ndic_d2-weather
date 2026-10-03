@@ -1,7 +1,7 @@
 = cz-ndic_d2-weather
 :toc: macro
 
-DATEX II Situation Publication – Počasí a sjízdnost. Nebezpečné jevy počasí a sjízdnost vztažené k meteostanicím na síti ŘSD.
+DATEX II Situation Publication – Počasí a sjízdnost. Nebezpečné jevy počasí a sjízdnost zjištěné meteohláskami na síti ŘSD.
 
 Repozitář formátu Národního dopravního informačního centra (NDIC) – specifikace datového profilu
 DATEX II 3.7 a jeho dokumentace. Aktuální verze formátu: *2.0*.
