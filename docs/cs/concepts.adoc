@@ -15,7 +15,7 @@ a používá model DATEX II 3.7.
 [[obalka]]
 === Obálka a hlavička publikace
 
-Každá zpráva je dokument DATEX II 3 s kořenovým elementem `d2:payload`. Atribut `xsi:type` kořenového elementu určuje typ
+Každá zpráva je dokument DATEX II 3 s kořenovým elementem `d2:payload`. Atribut `@xsi:type` kořenového elementu určuje typ
 publikace (zde `sit:SituationPublication`), atribut `modelBaseVersion="3"` verzi modelu a atribut `@lang` výchozí jazyk
 textů.
 
@@ -66,7 +66,7 @@ include::{samplesdir}/strong-wind.xml[tag=situation-head,indent=0]
 </sit:situation>
 ----
 
-Vlastní informaci nese záznam `situationRecord`; jeho typ (`xsi:type`) odpovídá zjištěnému jevu
+Vlastní informaci nese záznam `situationRecord`; jeho typ (`@xsi:type`) odpovídá zjištěnému jevu
 (viz <<typy>>). Více záznamů v jedné situaci se neočekává. Identifikátor záznamu je odvozen od
 identifikátoru situace a typu záznamu.
 

@@ -16,7 +16,7 @@ DATEX II publication `sit:SituationPublication` <<EN16157-3>> and uses the DATEX
 [[obalka]]
 === Envelope and publication header
 
-Each message is a DATEX II 3 document with the root element `d2:payload`. The `xsi:type` attribute of the root element
+Each message is a DATEX II 3 document with the root element `d2:payload`. The `@xsi:type` attribute of the root element
 specifies the publication type (here `sit:SituationPublication`), the `modelBaseVersion="3"` attribute
 the model version and the `@lang` attribute the default language of texts.
 
@@ -68,7 +68,7 @@ include::{samplesdir}/strong-wind.xml[tag=situation-head,indent=0]
 </sit:situation>
 ----
 
-The information itself is carried by the `situationRecord`; its type (`xsi:type`) corresponds to the
+The information itself is carried by the `situationRecord`; its type (`@xsi:type`) corresponds to the
 detected phenomenon (see <<typy>>). More than one record per situation is not expected. The record
 identifier is derived from the situation identifier and the record type.
 
