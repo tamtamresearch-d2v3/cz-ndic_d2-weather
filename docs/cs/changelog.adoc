@@ -9,3 +9,7 @@
 ** Formát je převeden na model DATEX II 3.7. Obálky `d2LogicalModel` a `exchange`
    se nepoužívají; kořen je `d2:payload`, formát určují atributy `@profileName` a `@profileVersion`.
 ** `safetyRelatedMessage` je součástí modelu (dříve národní rozšíření).
+** Neuvádějí se naléhavost (`urgency`), příčina (`cause`) ani druh zdroje (`sourceType`); komentář obsahuje jen popis
+   jevu.
+** Kluzká vozovka z povětrnostní příčiny je `slippery` (dříve `slipperyRoad`).
+** Odkaz na skupinu poloh je `loc:LocationGroupByReference`, `@targetClass` s prefixem `loc:`.
