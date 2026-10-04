@@ -4,7 +4,7 @@ Formát publikuje výstrahy před nebezpečnými povětrnostními podmínkami, k
 silniční síti. Událost vzniká, když měřená hodnota překročí stanovený práh – například hustá mlha, silný
 vítr, náledí či intenzivní srážky. Pravidelně měřená data meteostanic do formátu nepatří.
 
-Každá meteohláska má přiřazen předem známý úsek silnice, který zahrnuje oba směry jízdy. Poloha události
+Každá meteohláska má přiřazen předem známý úsek komunikace, který zahrnuje oba směry jízdy. Poloha události
 se proto ve zprávě neuvádí popisem, ale jen odkazem na tento úsek (viz <<polohy>>).
 
 Formát vychází z formátu `x-format:cz-ndic_d2-common-v2.0`: přebírá jeho záznamy o povětrnostních podmínkách a zužuje je
@@ -108,7 +108,7 @@ Typ záznamu odpovídá zjištěnému jevu. Formát používá tyto typy (potomc
 |`sit:PoorEnvironmentConditions` |nepříznivé podmínky prostředí (`poorEnvironmentType`), doplněné měřenými
 hodnotami: dohlednost (`visibility`), vítr (`wind`, rychlost v m/s), teplota (`temperature`), srážky
 (`precipitationDetail`), vlhkost (`humidity`)
-|`sit:WeatherRelatedRoadConditions` |stav vozovky vlivem počasí (`weatherRelatedRoadConditionType`, např.
+|`sit:WeatherRelatedRoadConditions` |stav vozovky související s počasím (`weatherRelatedRoadConditionType`, např.
 náledí, sníh, voda na vozovce – `surfaceWater`, kluzká vozovka – `slippery`)
 |===
 
@@ -135,7 +135,7 @@ include::{samplesdir}/strong-wind.xml[tag=validity,indent=0]
 [[polohy]]
 == Popisování poloh
 
-Poloha události je vždy předem známý úsek silnice přiřazený meteohlásce, zahrnující oba směry jízdy.
+Poloha události je vždy předem známý úsek komunikace přiřazený meteohlásce, zahrnující oba směry jízdy.
 Úseky publikuje formát `x-format:cz-ndic_d2-pls-v2.0` jako sadu předdefinovaných poloh; zpráva na ně jen odkazuje a odběratel polohu dohledá podle
 identifikátoru a verze.
 

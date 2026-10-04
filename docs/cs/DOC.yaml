@@ -5,5 +5,5 @@ date: '2026-09-28'
 author:
   name: Petr Bureš
   company: TamTam Research s.r.o.
-perex: Tento dokument popisuje datový formát, používaný pro poskytování výstrah před nebezpečnými povětrnostními podmínkami a zhoršenou sjízdností, které zjistí meteohlásky na silniční síti – například husté mlhy, silného větru, náledí nebo intenzivních srážek. Výstraha vzniká při překročení stanoveného prahu, platí 20 minut a dokud jev trvá, průběžně se obnovuje. Poloha se uvádí odkazem na předdefinovaný úsek meteohlásky ze sady poloh formátu x-format:cz-ndic_d2-pls-v2.0. Formát vychází z publikace sit:SituationPublication modelu DATEX II 3.7; pravidelně měřená data meteostanic neobsahuje.
+perex: Tento dokument popisuje datový formát používaný pro poskytování výstrah před nebezpečnými povětrnostními podmínkami a zhoršenou sjízdností, které zjistí meteohlásky na silniční síti – například husté mlhy, silného větru, náledí nebo intenzivních srážek. Výstraha vzniká při překročení stanoveného prahu, platí 20 minut a dokud jev trvá, průběžně se obnovuje. Poloha se uvádí odkazem na předdefinovaný úsek meteohlásky ze sady poloh formátu x-format:cz-ndic_d2-pls-v2.0. Formát vychází z publikace sit:SituationPublication modelu DATEX II 3.7; pravidelně měřená data meteostanic neobsahuje.
 keywords: DATEX II, NDIC, SituationPublication

@@ -41,7 +41,7 @@ include::{samplesdir}/strong-wind-loc_group.xml[tags=**]
 === visibility.xml – hustá mlha s naměřenou hodnotou
 
 Starší zpráva (2017) o husté mlze s nejmenší dohledností 30 metrů. Ukazuje zápis naměřené hodnoty
-(`minimumVisibilityDistance`); současné výstrahy meteohlásek uvádějí jen druh jevu.
+(`minimumVisibilityDistance`); současné výstrahy meteohlásek uvádějí jen typ jevu.
 
 [source,xml]
 ----
@@ -66,4 +66,4 @@ Záznam vznikl v 0:01 (`situationRecordCreationTime`) a do 21:48 byl aktualizov�
 verze platí 20 minut – tato od 21:46 do 22:06.
 
 Poloha::
-Odkaz na předdefinovaný úsek silnice ve verzi 260601; popis úseku obsahuje publikace formátu `x-format:cz-ndic_d2-pls-v2.0`.
+Odkaz na předdefinovaný úsek komunikace ve verzi 260601; popis úseku obsahuje publikace formátu `x-format:cz-ndic_d2-pls-v2.0`.
