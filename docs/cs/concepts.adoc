@@ -106,13 +106,13 @@ Typ záznamu odpovídá zjištěnému jevu. Formát používá tyto typy (potomc
 |===
 |Typ záznamu |Obsah
 |`sit:PoorEnvironmentConditions` |nepříznivé podmínky prostředí (`poorEnvironmentType`), doplněné měřenými
-hodnotami: viditelnost (`visibility`), vítr (`wind`, rychlost v m/s), teplota (`temperature`), srážky
+hodnotami: dohlednost (`visibility`), vítr (`wind`, rychlost v m/s), teplota (`temperature`), srážky
 (`precipitationDetail`), vlhkost (`humidity`)
 |`sit:WeatherRelatedRoadConditions` |stav vozovky vlivem počasí (`weatherRelatedRoadConditionType`, např.
 náledí, sníh, voda na vozovce – `surfaceWater`, kluzká vozovka – `slippery`)
 |===
 
-.Hustá mlha s viditelností 30 m (vzorek `visibility.xml`)
+.Hustá mlha s dohledností 30 m (vzorek `visibility.xml`)
 [source,xml]
 ----
 include::{samplesdir}/visibility.xml[tag=conditions,indent=0]

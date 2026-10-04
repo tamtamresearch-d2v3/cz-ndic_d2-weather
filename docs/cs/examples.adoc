@@ -40,7 +40,7 @@ include::{samplesdir}/strong-wind-loc_group.xml[tags=**]
 
 === visibility.xml – hustá mlha s naměřenou hodnotou
 
-Starší zpráva (2017) o husté mlze s nejmenší viditelností 30 metrů. Ukazuje zápis naměřené hodnoty
+Starší zpráva (2017) o husté mlze s nejmenší dohledností 30 metrů. Ukazuje zápis naměřené hodnoty
 (`minimumVisibilityDistance`); současné výstrahy meteohlásek uvádějí jen druh jevu.
 
 [source,xml]
