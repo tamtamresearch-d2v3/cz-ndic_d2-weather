@@ -7,7 +7,7 @@ vítr, náledí či intenzivní srážky. Pravidelně měřená data meteostanic
 Každá meteohláska má přiřazen předem známý úsek silnice, který zahrnuje oba směry jízdy. Poloha události
 se proto ve zprávě neuvádí popisem, ale jen odkazem na tento úsek (viz <<polohy>>).
 
-Formát vychází z formátu `cz-ndic_d2-common`: přebírá jeho záznamy o povětrnostních podmínkách a zužuje je
+Formát vychází z formátu `x-format:cz-ndic_d2-common-v2.0`: přebírá jeho záznamy o povětrnostních podmínkách a zužuje je
 na výstrahy meteohlásek. Na rozdíl od něj popisuje polohu jen odkazem na předdefinovaný úsek a připouští
 měřenou hodnotu vlhkosti. Formát vychází z DATEX II publikace `sit:SituationPublication` <<EN16157-3>>
 a používá model DATEX II 3.7.
@@ -136,7 +136,7 @@ include::{samplesdir}/strong-wind.xml[tag=validity,indent=0]
 == Popisování poloh
 
 Poloha události je vždy předem známý úsek silnice přiřazený meteohlásce, zahrnující oba směry jízdy.
-Úseky publikuje formát `cz-ndic_d2-pls` jako sadu předdefinovaných poloh; zpráva na ně jen odkazuje a odběratel polohu dohledá podle
+Úseky publikuje formát `x-format:cz-ndic_d2-pls-v2.0` jako sadu předdefinovaných poloh; zpráva na ně jen odkazuje a odběratel polohu dohledá podle
 identifikátoru a verze.
 
 Odkaz se uvádí v elementu `locationReference` typu `loc:LocationByReference` s vnořeným
@@ -151,7 +151,7 @@ se při změně popisu polohy nemění; změna geometrie vytváří novou verzi.
 include::{samplesdir}/strong-wind.xml[tag=loc-ref,indent=0]
 ----
 
-Metody popisu samotných předdefinovaných poloh popisuje dokumentace formátu `cz-ndic_d2-pls`.
+Metody popisu samotných předdefinovaných poloh popisuje dokumentace formátu `x-format:cz-ndic_d2-pls-v2.0`.
 
 Týká-li se jev více úseků najednou, může záznam odkazovat na *skupinu* předdefinovaných poloh: element
 `locationReference` je pak typu `loc:LocationGroupByReference` s vnořeným

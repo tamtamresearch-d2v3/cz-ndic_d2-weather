@@ -8,7 +8,7 @@ the format.
 Each road weather station is assigned a known road section covering both directions of travel. The
 location of an event is therefore not described in the message; it is only referenced (see <<polohy>>).
 
-The format is derived from the format `cz-ndic_d2-common`: it takes over its records on weather conditions
+The format is derived from the format `x-format:cz-ndic_d2-common-v2.0`: it takes over its records on weather conditions
 and narrows them to road weather station warnings. Unlike common, it describes the location only by a
 reference to a predefined section and allows a measured humidity value. The format is based on the
 DATEX II publication `sit:SituationPublication` <<EN16157-3>> and uses the DATEX II 3.7 model.
@@ -142,7 +142,7 @@ include::{samplesdir}/strong-wind.xml[tag=validity,indent=0]
 == Location referencing
 
 The location of an event is always the known road section assigned to the road weather station, covering
-both directions of travel. The sections are published by the `cz-ndic_d2-pls` format as a set of
+both directions of travel. The sections are published by the `x-format:cz-ndic_d2-pls-v2.0` format as a set of
 predefined locations; the message only
 references them and the consumer looks the location up by identifier and version.
 
@@ -161,7 +161,7 @@ include::{samplesdir}/strong-wind.xml[tag=loc-ref,indent=0]
 ----
 
 The description of the predefined locations themselves is covered by the documentation of the
-`cz-ndic_d2-pls` format.
+`x-format:cz-ndic_d2-pls-v2.0` format.
 
 If the phenomenon concerns several sections at once, the record may reference a *group* of predefined
 locations: the `locationReference` element is then of type `loc:LocationGroupByReference` with the nested

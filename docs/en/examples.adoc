@@ -26,13 +26,13 @@ The current version is valid for 20 minutes – from 0:21 to 0:41 (`overallStart
 Location::
 A reference to the predefined section of the road weather station Cínovec 2 (`loc:LocationByReference`,
 `@targetClass` = `loc:PredefinedLocation`) with the identifier `88410412-1bf1-4ace-8e84-66cb60d127db` in version 260601; the section
-is in the sample `predefined_location_set-weather.xml` of the format `cz-ndic_d2-pls`.
+is in the sample `predefined_location_set-weather.xml` of the format `x-format:cz-ndic_d2-pls-v2.0`.
 
 === strong-wind-loc_group.xml – strong wind for a group of places
 
 An illustrative variant of the message from the sample `strong-wind.xml` (with a different situation identifier) whose location refers to a group of predefined locations (`loc:LocationGroupByReference`,
 `@targetClass` = `loc:PredefinedLocationGroup`). The referenced group is the sample
-`predefined_location_loc_group.xml` of the format `cz-ndic_d2-pls`. A reference to a group does not yet occur in
+`predefined_location_loc_group.xml` of the format `x-format:cz-ndic_d2-pls-v2.0`. A reference to a group does not yet occur in
 production data; the sample only shows how it is written.
 
 [source,xml]
@@ -69,4 +69,4 @@ version 212. Each version is valid for 20 minutes – this one from 21:46 to 22:
 
 Location::
 Reference to a predefined road section in version 260601; the section description is contained in the
-publication of the `cz-ndic_d2-pls` format.
+publication of the `x-format:cz-ndic_d2-pls-v2.0` format.
